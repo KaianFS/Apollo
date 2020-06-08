@@ -1,0 +1,38 @@
+{
+  "name": "apollo",
+  "version": "1.0.0",
+  "description": "Bot for discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaianFS/Apollo.git"
+  },
+  "keywords": [
+    "Bot",
+    "discord"
+  ],
+  "author": "Apollo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaianFS/Apollo/issues"
+  },
+  "homepage": "https://github.com/KaianFS/Apollo#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "ffmpeg-binaries": "^3.2.2-3",
+    "ffmpeg-static": "^4.2.2",
+    "@discordjs/opus": "^0.1.0",
+    "ytdl-core": "^2.1.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.8",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "nodemon": "^1.18.6"
+  }
+}
